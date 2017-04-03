@@ -26,7 +26,8 @@
     "core-js": "^2.4.1",
     "express": "^4.15.2",
     "rxjs": "^5.1.0",
-    "zone.js": "^0.8.4"
+    "zone.js": "^0.8.4",
+    "typescript": "~2.2.0"
   },
   "devDependencies": {
     "@types/jasmine": "2.5.38",
@@ -42,8 +43,7 @@
     "karma-coverage-istanbul-reporter": "^0.2.0",
     "protractor": "~5.1.0",
     "ts-node": "~2.0.0",
-    "tslint": "~4.5.0",
-    "typescript": "~2.2.0"
+    "tslint": "~4.5.0"
   },
   "engines": {
     "node": "6.10.1",
