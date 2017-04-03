@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app works!';
+  title = 'Welcome to Locale!\r\n Frontend Development work still in progress. Please stay tune!';
 }
