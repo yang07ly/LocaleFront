@@ -169,10 +169,10 @@
 	});
 
 	/* COUNTDOWN */
-	$("#countdown").countdown({
-		date: "1 Jan 2018 00:00:00", // Put your date here
+	/*$("#countdown").countdown({
+		date: "2018/1/1", // Put your date here
 		format: "on"
-	});
+	});*/
 
 	/*==========  Disable Custom Dropdown on Mobile devices  ==========*/
 
@@ -303,7 +303,7 @@
 
 	/*==========  Video Popup  ==========*/
 
-	$('.video-play').nivoLightbox({
+	/*$('.video-play').nivoLightbox({
 		afterShowLightbox: function() {
 			var src = $('.nivo-lightbox-content > iframe').attr('src');
 			$('.nivo-lightbox-content > iframe').attr('src', src + '?autoplay=1');
@@ -346,7 +346,7 @@
 				}
 			}
 		}
-	});
+	});*/
 
 	/*==========  Load more button  ==========*/
 	$(".blog-grid .col-sm-6").hide();

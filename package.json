@@ -26,6 +26,7 @@
     "core-js": "^2.4.1",
     "express": "^4.15.2",
     "jquery": "^3.2.1",
+    "jquery-countdown": "^2.2.0",
     "rxjs": "^5.1.0",
     "typescript": "~2.2.0",
     "zone.js": "^0.8.4"
