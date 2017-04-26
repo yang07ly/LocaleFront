@@ -9,33 +9,13 @@ import { StoriesComponent } from './stories/stories.component';
 import { HomeComponent } from './home/home.component';
 import { SearchResultsComponent } from './search-results/search-results.component'
 
-@NgModule({
-  declarations: [
-    AppComponent,
-    StoriesComponent,
-    HomeComponent,
-    SearchResultsComponent
-  ],
-  imports: [
-    BrowserModule,
-    FormsModule,
-    HttpModule,
-    RouterModule.forRoot([
-    {
-      path: '',
-      redirectTo: '/',
-      pathMatch: 'full'
-    }, {
-      path: '',
-      component: HomeComponent
-    }, {
-      path: 'stories',
-      component: StoriesComponent
-    }])
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
-})
+import { AppRoutingModule } from './app-routing.module';
 
+@NgModule({
+  declarations: [ AppComponent, StoriesComponent, HomeComponent, SearchResultsComponent ],
+  imports: [ BrowserModule, FormsModule, HttpModule, AppRoutingModule ],
+  providers: [],
+  bootstrap: [ AppComponent ]
+})
 
 export class AppModule { }
