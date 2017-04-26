@@ -12,6 +12,7 @@ export class StoriesComponent implements AfterViewInit {
 	}
 
 	ngAfterViewInit() {
+		jQuery.getScript('assets/js/scripts.js');
 		// jQuery.when(
 		// 	jQuery.getScript('assets/scripts/Nivo-Lightbox/nivo-lightbox.js'),
 		// 	jQuery.getScript('assets/scripts/Nivo-Lightbox/nivo-lightbox.min.js'),
