@@ -23,10 +23,10 @@ import { SearchResultsComponent } from './search-results/search-results.componen
     RouterModule.forRoot([
     {
       path: '',
-      redirectTo: '/home',
+      redirectTo: '/',
       pathMatch: 'full'
     }, {
-      path: 'home',
+      path: '',
       component: HomeComponent
     }, {
       path: 'stories',
