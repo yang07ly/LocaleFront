@@ -12,8 +12,18 @@ import { SearchResultsComponent } from './search-results/search-results.componen
 import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
-  declarations: [ AppComponent, StoriesComponent, HomeComponent, SearchResultsComponent ],
-  imports: [ BrowserModule, FormsModule, HttpModule, AppRoutingModule ],
+  declarations: [ 
+    AppComponent, 
+    StoriesComponent, 
+    HomeComponent, 
+    SearchResultsComponent 
+  ],
+  imports: [ 
+    BrowserModule, 
+    FormsModule, 
+    HttpModule, 
+    AppRoutingModule 
+  ],
   providers: [],
   bootstrap: [ AppComponent ]
 })

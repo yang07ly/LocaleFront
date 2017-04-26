@@ -1,5 +1,5 @@
 import { Component, Input, AfterViewInit } from '@angular/core';
-declare var jQuery:any;
+declare var $:any;
 
 @Component({
   selector: 'stories',
@@ -11,6 +11,7 @@ export class StoriesComponent implements AfterViewInit {
 	}
 
 	ngAfterViewInit() {
-		jQuery.getScript('assets/js/scripts.js');
+		$('header.clearfix').removeClass('fixed');
+		$.getScript('assets/js/scripts.js');
 	}
 }
