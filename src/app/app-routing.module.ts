@@ -11,6 +11,7 @@ import { EditProfileComponent } from './dashboard/edit-profile/edit-profile.comp
 import { AddListingsComponent } from './dashboard/add-listings/add-listings.component';
 import { WishlistsComponent } from './dashboard/wishlists/wishlists.component';
 import { MessagesComponent } from './dashboard/messages/messages.component';
+import { TripsComponent } from './dashboard/trips/trips.component';
 
 import { StoriesComponent } from './stories/stories.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
@@ -27,7 +28,8 @@ const routes: Routes = [
 		{ path: 'listings', component: ListingsComponent },
 		{ path: 'wishlists', component: WishlistsComponent },
 		{ path: 'add-listings', component: AddListingsComponent },
-		{ path: 'messages', component: MessagesComponent }
+		{ path: 'messages', component: MessagesComponent },
+		{ path: 'trips', component: TripsComponent }
 	]},
 	{ path: 'explore', component: ExploreComponent },
 	{ path: 'become-a-guide', component: BecomeAGuideComponent },
