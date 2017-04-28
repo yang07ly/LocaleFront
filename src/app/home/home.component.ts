@@ -1,5 +1,5 @@
 import { Component, OnInit, AfterViewInit } from '@angular/core';
-declare var jQuery:any;
+declare var $:any;
 
 @Component({
 	selector: 'app-home',
@@ -15,6 +15,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
 	}
 
 	ngAfterViewInit() {
-		jQuery.getScript('assets/js/scripts.js');
+		$('header.clearfix').css('fixed');
+		$.getScript('assets/js/scripts.js');
 	}
 }

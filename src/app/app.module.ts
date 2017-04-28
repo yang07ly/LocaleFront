@@ -18,13 +18,14 @@ import { ListingsComponent } from './dashboard/listings/listings.component';
 import { AddListingsComponent } from './dashboard/add-listings/add-listings.component';
 import { WishlistsComponent } from './dashboard/wishlists/wishlists.component';
 import { ExploreComponent } from './explore/explore.component';
+import { BecomeAGuideComponent } from './become-a-guide/become-a-guide.component';
 
 @NgModule({
   declarations: [ 
     AppComponent, 
     StoriesComponent, 
     HomeComponent, 
-    SearchResultsComponent, NotFoundComponent, DashboardComponent, EditProfileComponent, DashboardMainComponent, ListingsComponent, AddListingsComponent, WishlistsComponent, ExploreComponent 
+    SearchResultsComponent, NotFoundComponent, DashboardComponent, EditProfileComponent, DashboardMainComponent, ListingsComponent, AddListingsComponent, WishlistsComponent, ExploreComponent, BecomeAGuideComponent 
   ],
   imports: [ 
     BrowserModule, 

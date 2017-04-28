@@ -15,6 +15,7 @@ import { StoriesComponent } from './stories/stories.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ExploreComponent } from './explore/explore.component';
+import { BecomeAGuideComponent } from './become-a-guide/become-a-guide.component';
 
 const routes: Routes = [
 	{ path: '', redirectTo: '/', pathMatch: 'full'}, 
@@ -27,6 +28,7 @@ const routes: Routes = [
 		{ path: 'add-listings', component: AddListingsComponent }
 	]},
 	{ path: 'explore', component: ExploreComponent },
+	{ path: 'become-a-guide', component: BecomeAGuideComponent },
 	{ path: 'stories', component: StoriesComponent },
 	{ path: 'search-results', component: SearchResultsComponent },
 	{ path: '404', component: NotFoundComponent },
