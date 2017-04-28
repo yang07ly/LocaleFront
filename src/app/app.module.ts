@@ -10,13 +10,14 @@ import { HomeComponent } from './home/home.component';
 import { SearchResultsComponent } from './search-results/search-results.component'
 
 import { AppRoutingModule } from './app-routing.module';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [ 
     AppComponent, 
     StoriesComponent, 
     HomeComponent, 
-    SearchResultsComponent 
+    SearchResultsComponent, NotFoundComponent 
   ],
   imports: [ 
     BrowserModule, 
