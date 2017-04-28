@@ -14,6 +14,7 @@ import { WishlistsComponent } from './dashboard/wishlists/wishlists.component';
 import { StoriesComponent } from './stories/stories.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { ExploreComponent } from './explore/explore.component';
 
 const routes: Routes = [
 	{ path: '', redirectTo: '/', pathMatch: 'full'}, 
@@ -25,6 +26,7 @@ const routes: Routes = [
 		{ path: 'wishlists', component: WishlistsComponent },
 		{ path: 'add-listings', component: AddListingsComponent }
 	]},
+	{ path: 'explore', component: ExploreComponent },
 	{ path: 'stories', component: StoriesComponent },
 	{ path: 'search-results', component: SearchResultsComponent },
 	{ path: '404', component: NotFoundComponent },

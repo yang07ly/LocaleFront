@@ -170,7 +170,7 @@
 
 	/* COUNTDOWN */
 	$("#countdown").countdown({
-		date: "2018/1/1", // Put your date here
+		date: "2017/5/2", // Put your date here
 		format: "on"
 	});
 

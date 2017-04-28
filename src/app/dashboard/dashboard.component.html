@@ -2,7 +2,7 @@
 	<div class="container">
 		<nav class="menu">
 			<ul class="list-unstyled">
-				<li routerLinkActive="active"><a routerLink="/dashboard" >Dashboard</a></li>
+				<li routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><a routerLink="/dashboard/" >Dashboard</a></li>
 				<li routerLinkActive="active"><a routerLink="/dashboard/edit-profile">Edit Profile</a></li>
 				<li routerLinkActive="active"><a routerLink="/dashboard/listings">My Listings</a></li>
 				<li routerLinkActive="active"><a routerLink="/dashboard/add-listings">Add Listings</a></li>
