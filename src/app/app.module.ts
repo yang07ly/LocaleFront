@@ -11,13 +11,14 @@ import { SearchResultsComponent } from './search-results/search-results.componen
 
 import { AppRoutingModule } from './app-routing.module';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
 
 @NgModule({
   declarations: [ 
     AppComponent, 
     StoriesComponent, 
     HomeComponent, 
-    SearchResultsComponent, NotFoundComponent 
+    SearchResultsComponent, NotFoundComponent, DashboardComponent 
   ],
   imports: [ 
     BrowserModule, 
