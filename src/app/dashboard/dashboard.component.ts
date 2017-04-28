@@ -18,5 +18,4 @@ export class DashboardComponent implements OnInit, AfterViewInit {
 		$('header.clearfix').removeClass('fixed');
 		$.getScript('assets/js/scripts.js');
 	}
-
 }
