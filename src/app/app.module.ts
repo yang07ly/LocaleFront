@@ -12,13 +12,18 @@ import { SearchResultsComponent } from './search-results/search-results.componen
 import { AppRoutingModule } from './app-routing.module';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
+import { EditProfileComponent } from './dashboard/edit-profile/edit-profile.component';
+import { DashboardMainComponent } from './dashboard/dashboard-main/dashboard-main.component';
+import { ListingsComponent } from './dashboard/listings/listings.component';
+import { AddListingsComponent } from './dashboard/add-listings/add-listings.component';
+import { WishlistsComponent } from './dashboard/wishlists/wishlists.component';
 
 @NgModule({
   declarations: [ 
     AppComponent, 
     StoriesComponent, 
     HomeComponent, 
-    SearchResultsComponent, NotFoundComponent, DashboardComponent 
+    SearchResultsComponent, NotFoundComponent, DashboardComponent, EditProfileComponent, DashboardMainComponent, ListingsComponent, AddListingsComponent, WishlistsComponent 
   ],
   imports: [ 
     BrowserModule, 
