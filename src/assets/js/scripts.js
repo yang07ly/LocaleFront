@@ -41,7 +41,7 @@
 		$('.login-wrapper').addClass('open');
 		$('.signup-wrapper').removeClass('open');
 	});
-	$(document).on('click', function(event) { 
+	$(document).on('click', function(event) {
 		if (!$(event.target).closest('.login').length && !$(event.target).closest('.login-open').length) {
 			$('.login-wrapper').removeClass('open');
 		}
@@ -51,7 +51,7 @@
 		$('.signup-wrapper').addClass('open');
 		$('.login-wrapper').removeClass('open');
 	});
-	$(document).on('click', function(event) { 
+	$(document).on('click', function(event) {
 		if (!$(event.target).closest('.signup').length && !$(event.target).closest('.signup-open').length) {
 			$('.signup-wrapper').removeClass('open');
 		}
@@ -180,7 +180,7 @@
 	   // the browser window is less than 768px
 	   $('.selectpicker').selectpicker('destroy');
 	 }
-	
+
 	/*==========  Validate Email  ==========*/
 	function validateEmail($validate_email) {
 		var emailReg = /^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;
@@ -191,7 +191,7 @@
 		}
 		return false;
 	}
-	
+
 	/*==========  Contact Form  ==========*/
 	$('#contact-form').on('submit', function() {
 		$('#contact-form').find('.button').prop('disabled', true);
@@ -295,7 +295,7 @@
 		return false;
 	});
 
-	$(document).on('click', function(event) { 
+	$(document).on('click', function(event) {
 		if (!$(event.target).closest('.marker-wrapper').length) {
 			$('.marker-wrapper').removeClass('open');
 		}
@@ -373,7 +373,7 @@
 		connect: true,
 		behaviour: 'tap',
 		margin: 100,
-		start: [39, 350],
+		start: [8, 30],
 		step: 1,
 		range: {
 			'min': 0,
@@ -396,7 +396,7 @@
 			autohidemode: false
 		});
 	});
-	
+
 	$(".fullscreen-section>.right>.inner").niceScroll({
 		cursorcolor: '#646e7b',
 		cursorborder: 'none',
