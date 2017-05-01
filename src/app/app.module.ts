@@ -21,13 +21,15 @@ import { ExploreComponent } from './explore/explore.component';
 import { BecomeAGuideComponent } from './become-a-guide/become-a-guide.component';
 import { MessagesComponent } from './dashboard/messages/messages.component';
 import { TripsComponent } from './dashboard/trips/trips.component';
+import { ItinerariesComponent } from './dashboard/itineraries/itineraries.component';
+import { HostsComponent } from './dashboard/hosts/hosts.component';
 
 @NgModule({
   declarations: [ 
     AppComponent, 
     StoriesComponent, 
     HomeComponent, 
-    SearchResultsComponent, NotFoundComponent, DashboardComponent, EditProfileComponent, DashboardMainComponent, ListingsComponent, AddListingsComponent, WishlistsComponent, ExploreComponent, BecomeAGuideComponent, MessagesComponent, TripsComponent 
+    SearchResultsComponent, NotFoundComponent, DashboardComponent, EditProfileComponent, DashboardMainComponent, ListingsComponent, AddListingsComponent, WishlistsComponent, ExploreComponent, BecomeAGuideComponent, MessagesComponent, TripsComponent, ItinerariesComponent, HostsComponent 
   ],
   imports: [ 
     BrowserModule, 

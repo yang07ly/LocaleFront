@@ -12,6 +12,8 @@ import { AddListingsComponent } from './dashboard/add-listings/add-listings.comp
 import { WishlistsComponent } from './dashboard/wishlists/wishlists.component';
 import { MessagesComponent } from './dashboard/messages/messages.component';
 import { TripsComponent } from './dashboard/trips/trips.component';
+import { ItinerariesComponent } from './dashboard/itineraries/itineraries.component';
+import { HostsComponent } from './dashboard/hosts/hosts.component';
 
 import { StoriesComponent } from './stories/stories.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
@@ -29,7 +31,9 @@ const routes: Routes = [
 		{ path: 'wishlists', component: WishlistsComponent },
 		{ path: 'add-listings', component: AddListingsComponent },
 		{ path: 'messages', component: MessagesComponent },
-		{ path: 'trips', component: TripsComponent }
+		{ path: 'trips', component: TripsComponent },
+		{ path: 'itineraries', component: ItinerariesComponent },
+		{ path: 'hosts', component: HostsComponent }
 	]},
 	{ path: 'explore', component: ExploreComponent },
 	{ path: 'become-a-guide', component: BecomeAGuideComponent },
