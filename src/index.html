@@ -76,7 +76,7 @@
 			var map;
 			function initialize_map() {
 				if ($('.map').length) {
-					var myLatLng = new google.maps.LatLng(40.716269,-74.004566);
+					var myLatLng = new google.maps.LatLng(35.6822658,139.7835814);
 					var mapOptions = {
 						zoom: 17,
 						center: myLatLng,
@@ -91,7 +91,7 @@
 					return false;
 				}
 
-				var marker1LatLng = new google.maps.LatLng(40.715756,-74.005339);
+				var marker1LatLng = new google.maps.LatLng(35.682266,139.783581);
 				var marker1 = new RichMarker({
 					position: marker1LatLng,
 					map: map,
@@ -115,7 +115,7 @@
 					$('#marker1').toggleClass('open');
 				});
 
-				var marker2LatLng = new google.maps.LatLng(40.716715,-74.003352);
+				var marker2LatLng = new google.maps.LatLng(35.6827858,139.7838227);
 				var marker2 = new RichMarker({
 					position: marker2LatLng,
 					map: map,
