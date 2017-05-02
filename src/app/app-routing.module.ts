@@ -13,13 +13,13 @@ import { WishlistsComponent } from './dashboard/wishlists/wishlists.component';
 import { MessagesComponent } from './dashboard/messages/messages.component';
 import { TripsComponent } from './dashboard/trips/trips.component';
 import { ItinerariesComponent } from './dashboard/itineraries/itineraries.component';
-import { HostsComponent } from './dashboard/hosts/hosts.component';
 
 import { StoriesComponent } from './stories/stories.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ExploreComponent } from './explore/explore.component';
 import { BecomeAGuideComponent } from './become-a-guide/become-a-guide.component';
+import { HostsComponent } from './hosts/hosts.component';
 
 const routes: Routes = [
 	{ path: '', redirectTo: '/', pathMatch: 'full'}, 
@@ -32,10 +32,10 @@ const routes: Routes = [
 		{ path: 'add-listings', component: AddListingsComponent },
 		{ path: 'messages', component: MessagesComponent },
 		{ path: 'trips', component: TripsComponent },
-		{ path: 'itineraries', component: ItinerariesComponent },
-		{ path: 'hosts', component: HostsComponent }
+		{ path: 'itineraries', component: ItinerariesComponent }
 	]},
 	{ path: 'explore', component: ExploreComponent },
+	{ path: 'hosts', component: HostsComponent },
 	{ path: 'become-a-guide', component: BecomeAGuideComponent },
 	{ path: 'stories', component: StoriesComponent },
 	{ path: 'search-results', component: SearchResultsComponent },
