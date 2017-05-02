@@ -12,10 +12,11 @@ export class HomeComponent implements OnInit, AfterViewInit {
 	}
 
 	ngOnInit() {
+		$('header.clearfix').addClass('fixed');
+		
 	}
 
 	ngAfterViewInit() {
-		$('header.clearfix').css('fixed');
 		$.getScript('assets/js/scripts.js');
 	}
 }
